@@ -1,0 +1,23 @@
+{
+  "name": "ip_server",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "license": "Nope",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "sequelize": "^6.6.2"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "description": "rest api server",
+  "author": "sofiane adda boudjelal",
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.12",
+    "nodemon": "^2.0.7"
+  }
+}
