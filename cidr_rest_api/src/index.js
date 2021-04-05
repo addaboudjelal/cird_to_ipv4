@@ -4,6 +4,13 @@ import routes from './routes';
 
 import models from './models';
 
+
+/**
+ * WE are using Express framework to build a Rest API
+ * we setup the default data with the List models
+ * and we call the routes.ipv4 that manage all the request for this part of the app
+ */
+
 const app = express();
 app.use(cors());
 

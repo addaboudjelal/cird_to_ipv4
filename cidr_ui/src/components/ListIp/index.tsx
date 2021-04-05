@@ -1,6 +1,13 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 
+/**
+ * 
+ * @param: data, loading, error, updateStatus 
+ * data list of all the IPs, loading status when fetching and waiting for the result, error, to show the error states that would possibly happend and updateStatus function that would fetch and send the id and the new status of the IP selected
+ * @returns : the view of the items (IP) to the main UI
+ */
+
 const ListIp = ({ data, loading, error, updateStatus}:any)=> {
 
         return (<>

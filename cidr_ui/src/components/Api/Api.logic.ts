@@ -6,8 +6,7 @@ const config = {
 /**
  * @method doList: get list of all ips
  * @method doUpdateStatus: put/update ip status
- * TODO:
- * @method doCreate: create a list of ip CIRD block
+ * @method doIPaddresses: send the CIRD IP create a list of CIRD block on Rest API side
  */
 
 class ApiMethod {

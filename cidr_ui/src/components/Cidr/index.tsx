@@ -3,6 +3,14 @@ import { withApi } from '../Api';
 import ListIp from '../ListIp';
 import {Row, Col} from 'react-bootstrap';
 
+/**
+ * @method componentDidMount: When init the app, this method go fetch the data from the REST API and return all the ips that exist
+ * @method onSubmit: When we enter a valid value CIDR that ip is sent to the Rest API where a function generate all the list of possible IPs and send back that list to the UI to update
+ * @method onChange: We capture all the variable in the state to use them
+ * @method onChecked: We capture all the variable in the state to use them
+ * @method updateStatus: Function thta is propagated to the list component where when we click on the button we send the new status of the IP address and the list is sent back the UI with the new updated status
+ */
+
 const INIT_STATE = {
     cidr: '',
     mask: '',

@@ -1,3 +1,8 @@
+/**
+ * @method Cird: check the validity of the IP and generate all the proper IP and return the result or if something is wrong we return null to the App
+ */
+
+
 const Cird = (ip,mask) => {
     let reg = new RegExp('^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$');
     console.log(reg.test(ip));
